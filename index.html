@@ -12,31 +12,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="bg-cyan-50">
+<body class="bg-indigo-50">
     <header>
-        <h1 class="page-header text-5xl text-center mt-14 font-semibold text-cyan-800">Bank System</h1>
+        <h1 class="page-header text-5xl text-center mt-14 font-semibold">Bank System</h1>
     </header>
     <main>
-        <section id="login-button" class="w-2/4 mx-auto mt-16 bg-cyan-100 rounded-xl p-16 drop-shadow-2xl">
-            <div class="block ">
+        <section id="login-button" class="w-2/4 mx-auto mt-16 bg-violet-300 rounded-xl p-16 drop-shadow-2xl">
+            <h4 class="text-center text-3xl font-medium mb-5">Login</h4>
+            <div class="flex justify-center items-center">
                 <div>
-                    <h3 class="text-3xl mb-5 text-center">Login</h3>
+                    <p><input id="user-email" class="mb-3 p-3 drop-shadow-xl rounded-xl" type="text" placeholder="Email"></p>
+                    <p><input class="mb-3 p-3 drop-shadow-xl rounded-xl" type="password" placeholder=" Password " name="" id="user-password"></p>
+                    <button id="login-submit" class="bg-cyan-600 px-6 rounded-xl py-2 text-white font-medium drop-shadow-xl ">Submit</button>
                 </div>
-                <div>
-                    <div>
-                        <input id="user-email" class="block w-2/4 mb-3 p-3 drop-shadow-xl rounded-xl" type="text" placeholder="Email">
-                        <input class="block w-2/4 mb-3 p-3 drop-shadow-xl rounded-xl" type="password" placeholder=" Password " name="" id="user-password">
-                        <button id="login-submit" class="bg-cyan-600 px-6 rounded-xl py-2 text-white font-medium drop-shadow-xl ">Submit</button>
-                    </div>
-
-                </div>
-
             </div>
-
         </section>
-
     </main>
-    <script src='system.js'></script>
+    <script src='js/login.js'></script>
 </body>
 
 </html>
